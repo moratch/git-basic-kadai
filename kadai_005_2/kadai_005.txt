@@ -1,6 +1,26 @@
-cd C:\Users\qpfgm\TEST
-mkdir git_challenge
-git add hello_world.txt
-git commit -m "hello_world.txtを追加"
-git commit -m "日本語訳を追加"
-git log --oneline
+PS C:\Users\qpfgm\TEST\Github> mkdir git_challenge
+
+    Directory: C:\Users\qpfgm\TEST\Github
+
+Mode                 LastWriteTime         Length Name   
+----                 -------------         ------ ----   
+d----          2024/06/24     7:26                git_ch 
+                                                  alleng 
+                                                  e      
+
+PS C:\Users\qpfgm\TEST\Github> cd git_challenge
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git init    
+Initialized empty Git repository in C:/Users/qpfgm/TEST/Github/git_challenge/.git/
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git add Hello_world.txt
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git commit -m "Hello_world.txtを追加"
+[main (root-commit) 481da25] Hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Hello_world.txt
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git add Hello_world.txt
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git commit -m "日本語訳を追記"       
+[main e105865] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\qpfgm\TEST\Github\git_challenge> git log --oneline
+e105865 (HEAD -> main) 日本語訳を追記
+481da25 Hello_world.txtを追加
+PS C:\Users\qpfgm\TEST\Github\git_challenge> 
