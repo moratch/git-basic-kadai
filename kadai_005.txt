@@ -1,0 +1,6 @@
+cd C:\Users\qpfgm\TEST
+mkdir git_challenge
+git add hello_world.txt
+git commit -m "hello_world.txtを追加"
+git commit -m "日本語訳を追加"
+git log --oneline
